@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: CybrNight's Blog
+subtitle: "UC Merced '23"
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -14,10 +14,6 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
@@ -26,11 +22,11 @@ urls:
 
 author_logo: profile.png
 author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_bio: Hi, my name is Nathan! I am a recent graduate from UC Merced
+author_email: "nathanestrada126@gmail.com"
+author_location: United States
+author_website_url: ""
+typewrite-text: ""
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -52,8 +48,8 @@ author_work_experiences:
 author_education_details:
               - college_logo: mit.png
                 college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
+                college_url: https://ucmerced.edu"
+                college_degree: Computer Science and Engineering
                 description: Bachelor of Technology
                 visibility: true
 
