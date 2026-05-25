@@ -1,8 +1,36 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# _config.yml
+title: "Portfolio of Projects"
+description: "A showcase of the games and projects I've devloped."
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-url: https://just-the-docs.github.io
+# Collections
+collections:
+  projects:
+    output: true
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Just the Docs settings
+just_the_docs:
+  logo: /assets/images/logo.png
+  favicon: /assets/images/favicon.ico
+  primary_navigation:
+    - title: "Home"
+      url: /
+    - title: "Projects"
+      url: /projects/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
+
+# Author / social config
+author:
+  name: Nathan Estrada
+  email: nathanestrada126@gmail.com
+  social:
+    linkedin: https://www.linkedin.com/in/nathan-estrada
+    github: https://github.com/CybrNight
